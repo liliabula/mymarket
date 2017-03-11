@@ -32,6 +32,8 @@ gem 'jbuilder', '~> 2.5'
 #below materialize is for CSS puposes
 gem 'materialize-sass'
 
+#devise - per gestire il database di utenti
+gem 'devise'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
